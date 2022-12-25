@@ -1,5 +1,7 @@
 # Lesson tRPC
 
+https://github.com/trpc/examples-next-prisma-starter
+
 ## Installation
 
 ```sh
