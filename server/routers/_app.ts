@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import { procedure, router } from '../trpc';
+import { postRouter } from './post';
 
 /* APIの定義 */
 export const appRouter = router({
@@ -14,6 +15,7 @@ export const appRouter = router({
         greeting: `hello ${input.text}`,
       };
     }),
+  post: postRouter,
 });
 
 // export type definition of API
